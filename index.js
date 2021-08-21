@@ -1105,5 +1105,25 @@ client.on("guildCreate" , DarkMan => {
 })
 
 
+const discordButtons = require("discord-buttons-plugin");
+const buttonClient = new discordButtons(client);
+client.on("message", message => {
+  if (message.content === "!ping") {
+    const embed = new Discord.MessageEmbed()
+      .setTitle("shte bnusa")
+      .setColor("GOLD");
+    const button1 = new buttonClient.MessageButton()
+      .setLabel("پەنجەی پیانێ مامە ")
+      .setStyle("green")
+      .setURL("link dane");
+    buttonClient.send(null, {
+      channel: message.channel.id,
+      embed,
+      buttons: [[button1]]
+    });
+  }
+});
+
+
 
 //Bot coded by Monty#6985 
