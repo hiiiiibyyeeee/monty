@@ -25,7 +25,7 @@ module.exports = {
  **resume / search / shuffle / skip  **
 
  **skipto / stop / volume / filter **
- ────────────────────────────────────────────────
+ ────────────────
  **Invite / prefix / uptime / support**
 
 
