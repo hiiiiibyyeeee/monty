@@ -25,6 +25,11 @@ module.exports = {
  **resume - search - shuffle - skip - **
 
  **skipto - stop - volume - filter **
+ ────────────────────────────────────────────────
+**Invite / prefix / uptime /**
+
+
+
 
  **Links**
  [Support](https://discord.gg/Wr24Xa3x)
