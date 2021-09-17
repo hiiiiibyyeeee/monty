@@ -17,12 +17,12 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setDescription(`
 
-[{Click here}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot) **to invite the bot.**
+[{404 here}](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=11856960&scope=bot) **to invite the bot.**
 `)
 
   
    .setColor("RANDOM");
-   message.react("<a:53EC4B02339C41BF9A83F5597463DBEB:853287599720235029>")
+   message.react("➕")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
