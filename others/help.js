@@ -18,26 +18,26 @@ module.exports = {
     .setThumbnail(`https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif `)
     .setTitle(`404 Music 🎶 `)
     .setDescription(`
- **play - loop - lyrics - nowplaying -**
+ **play / loop / lyrics / nowplaying **
 
- **pause - queue - radio - remove -**
+ **pause / queue / radio / remove **
 
- **resume - search - shuffle - skip - **
+ **resume / search / shuffle / skip  **
 
- **skipto - stop - volume - filter **
+ **skipto / stop / volume / filter **
  ────────────────────────────────────────────────
-**Invite / prefix / uptime /**
+ **Invite / prefix / uptime / support**
 
 
 
 
  **Links**
- [Support](https://discord.gg/Wr24Xa3x)
- [Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=11856960&scope=bot)
+ [404Support](https://discord.gg/Wr24Xa3x)
+ [404Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=11856960&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
-   message.react("✅")
+   message.react("4️⃣0️⃣4️⃣")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
