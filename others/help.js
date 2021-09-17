@@ -15,18 +15,18 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setThumbnail(`https://media.discordapp.net/attachments/861399487233654834/872561176456884224/image0.png `)
-    .setTitle(`**Random Help**`)
+    .setThumbnail(`https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif `)
+    .setTitle(`404 Music 🎶 `)
     .setDescription(`
-> **play - loop - lyrics - nowplaying -**
+ **play - loop - lyrics - nowplaying -**
 
-> **pause - queue - radio - remove -**
+ **pause - queue - radio - remove -**
 
-> **resume - search - shuffle - skip - **
+ **resume - search - shuffle - skip - **
 
-> **skipto - stop - volume - filter **
+ **skipto - stop - volume - filter **
 
- *Links**
+ **Links**
  [Support](https://discord.gg/Wr24Xa3x)
  [Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=11856960&scope=bot)
 `)
