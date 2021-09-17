@@ -18,16 +18,21 @@ module.exports = {
     .setThumbnail(`https://media.discordapp.net/attachments/861399487233654834/872561176456884224/image0.png `)
     .setTitle(`**Random Help**`)
     .setDescription(`
+> **play - loop - lyrics - nowplaying -**
+
+> **pause - queue - radio - remove -**
+
+> **resume - search - shuffle - skip - **
+
+> **skipto - stop - volume - filter **
 
  *Links**
- [Support](https://discord.gg/AkYA68Z2gG)
- [Invite](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)
- [Website](https://randombotm.code.blog/)
- [Sponsored](https://discord.gg/K8SSqweuSH)
+ [Support](https://discord.gg/Wr24Xa3x)
+ [Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=11856960&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
-   message.react("<a:emoji_182:860935836240314378>")
+   message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
