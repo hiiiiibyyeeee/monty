@@ -17,7 +17,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 //this fires when the BOT STARTS DO NOT TOUCH
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "boy")) {
+  if (message.content.startsWith(PREFIX + "&0")) {
     let man = [
       "https://media.discordapp.net/attachments/786897044483604490/803870769313480714/Enes_Acar_GIF_70.gif",
       "https://media.discordapp.net/attachments/786897044483604490/803870793716858880/a_57a7f6c875e3a329b170edf177392911.gif",
@@ -70,7 +70,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "girl")) {
+  if (message.content.startsWith(PREFIX + "&&")) {
     let girl = [
       "https://media.discordapp.net/attachments/786897045436366849/804968189892755456/image2-1.gif",
       "https://media.discordapp.net/attachments/786897045436366849/804968223577604126/gif472.gif",
@@ -117,7 +117,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "couple")) {
+  if (message.content.startsWith(PREFIX + "&&&")) {
     let loves = [
       "https://media.discordapp.net/attachments/608711480346542102/782233713538498600/hit_gif_5.gif",
       "https://media.discordapp.net/attachments/608711480346542102/782286421020508170/image0_1.gif",
@@ -164,7 +164,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "sad")) {
+  if (message.content.startsWith(PREFIX + "&&&")) {
     let sads = [
       "https://media.discordapp.net/attachments/786897045952790550/798719676795715614/Zeyrox_43.gif",
       "https://media.discordapp.net/attachments/786897045952790550/799435191323852820/luisa1-1.gif",
@@ -196,7 +196,7 @@ client.on("message", message => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "anime")) {
+  if (message.content.startsWith(PREFIX + "&&&&&")) {
     let man = [
       "https://media.discordapp.net/attachments/608711485849337856/855998757451989002/image0-2.gif",
       "https://media.discordapp.net/attachments/608711485849337856/856002084461084682/image0-4.gif",
@@ -233,7 +233,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "cartoon")) {
+  if (message.content.startsWith(PREFIX + "$$$$")) {
     let girl = [
       "https://media.discordapp.net/attachments/755169627872428134/855635705242058752/g0yPLFTYpr283dUJBs.gif",
       "https://media.discordapp.net/attachments/755169627872428134/855792117719498752/video0.gif",
@@ -272,7 +272,7 @@ client.on('message',message => {
 
  
 
-if(message.content.startsWith(PREFIX+ 'ban')) { 
+if(message.content.startsWith(PREFIX+ 'Hakfhqouuu')) { 
 
 let args = message.content.split(" ").slice(1) 
 
@@ -284,17 +284,17 @@ let Ban = message.mentions.members.first();
 
 let hokar = args.slice(1).join(" "); 
 
-if(!args[0]) return message.channel.send('tkaya kasek mention bka bo ban krdn') 
+if(!args[0]) return message.channel.send('please @ the Member') 
 
-if(!Ban) return message.channel.send(`${args[0]} am kasa bwny niya la server`) 
+if(!Ban) return message.channel.send(`${args[0]} Error (404) ❌`) 
 
-if(!hokar) return message.channel.send('hokarek dyare bka') 
+if(!hokar) return message.channel.send('reason?') 
 
  
 
 if(!Ban.bannable) { 
 
-return message.channel.send('to natwane am kasa ban bkai') 
+return message.channel.send('402') 
 
  
 
@@ -312,11 +312,11 @@ const embed = new Discord.MessageEmbed()
 
 .setColor('RANDOM') 
 
-.addField('kase ban kraw', Ban) 
+.addField('User Banded ', Ban) 
 
-.addField('ban kra la layan', message.author) 
+.addField('Ban By ', message.author) 
 
-.addField('ba hokare', hokar) 
+.addField('reason', hokar) 
 
 .setFooter('') 
 
@@ -369,7 +369,7 @@ client.on("ready", () => {
 });
 
 client.on("message", message => {
-  if (message.content.startsWith(PREFIX + "neon")) {
+  if (message.content.startsWith(PREFIX + "-/-:")) {
     let girl = [
       "https://media.discordapp.net/attachments/755890505681731714/856207944953233439/a_08ca790f778a7ee65184020eb2c85124.gif",
       "https://media.discordapp.net/attachments/755890505681731714/856212748844007454/image4.gif",
@@ -407,7 +407,7 @@ client.on("message", message => {
 });
 
 client.on('message',  (message) => {
-        if(message.content.startsWith(PREFIX + "hug")) {
+        if(message.content.startsWith(PREFIX + "-/-/-);")) {
   let user = message.mentions.users.first() 
   if (!user) return message.reply('mention someone to Hug')
  
@@ -440,7 +440,7 @@ message.channel.send(embed)
         }})
 
 client.on('message',  (message) => {
-        if(message.content.startsWith(PREFIX + "slap")) {
+        if(message.content.startsWith(PREFIX + ")/&;)-3")) {
   let user = message.mentions.users.first();
   if (!user) return message.reply('mention someone to Slap')
   let slaps = [
@@ -463,7 +463,7 @@ message.channel.send(embed)
         }})
 
 client.on('message',  (message) => {
-        if(message.content.startsWith(PREFIX + "kiss")) {
+        if(message.content.startsWith(PREFIX + "92$;)-")) {
   let user = message.mentions.users.first();
   if (!user) return message.reply('mention someone to Kiss')
   var kiss = [
@@ -487,7 +487,7 @@ message.channel.send(embed)
         }})
 
 client.on('message', async message=>{
-  if(message.content.startsWith(PREFIX +'unban')){
+  if(message.content.startsWith(PREFIX +'£[+~!hh')){
 if(!message.member.hasPermission('BAN_MEMBERS')) return message.channel.send('bbura to natwane am frmana anjam bdait')
     let args = message.content.split(" ").slice(1)
 if(!args[0]) return message.channel.send('tkaya kasek mention bka bo unban krdn')
@@ -509,7 +509,7 @@ message.channel.send(qala)
   }})
 
 client.on('message',async message => {
-  if(message.content.startsWith(PREFIX + "vkick")) { 
+  if(message.content.startsWith(PREFIX + "&-@;010000")) { 
    if (!message.member.hasPermission("MANAGE_GUILD")) {
       return message.channel.send("pewist ba role bo anjamdane amkara");
     }
@@ -589,7 +589,7 @@ if (!message.member.hasPermission("MANAGE_GUILD")) {
 })
 
 client.on('message',async message => {
-  if(message.content.startsWith(PREFIX + "roleremove")) { 
+  if(message.content.startsWith(PREFIX + "018;!/'dbb")) { 
  
 if (!message.member.hasPermission("MANAGE_GUILD")) {
       return message.channel.send("pewist ba role bo anjamdane amkara");
@@ -615,7 +615,7 @@ if (!message.member.hasPermission("MANAGE_GUILD")) {
 })
 
 client.on("message", async message => {
-  if (message.content.startsWith(PREFIX + "tinvites")) {
+  if (message.content.startsWith(PREFIX + "pqj;$/3$")) {
     if (message.author.bot) return;
     if (!message.channel.guild)
       return message.reply(" Error : ` Server Command `");
@@ -640,91 +640,10 @@ client.on("message", async message => {
   }
 });
 
-client.on('message', function(message) {
-    if(message.content.startsWith(PREFIX  + "report")) {
-        let messageArgs = message.content.split(" ").slice(1).join(" ");
-        let messageReason = message.content.split(" ").slice(2).join(" ");
-        if(!messageReason) return message.reply("**# Specify a reason!**");
-   let mUser = message.mentions.members.first();
-    if(!mUser) return message.channel.send("Couldn't find user.");
-    let Rembed = new Discord.MessageEmbed()
-    .setTitle("`New Report!`")
-    .setThumbnail(message.author.avatarURL)
-    .addField("**# - Reported User:**",mUser,true)
-    .addField("**# - Reported User ID:**",mUser.id,true)
-    .addField("**# - Reason:**",messageReason,true)
-    .addField("**# - Channel:**",message.channel,true)
-    .addField("**# - Time:**",message.createdAt,true)
-    .setFooter("If the reporting was a joke, the person reporting would be subject to penalties")
-message.channel.send(Rembed)
-message.channel.send("Sended Your report to  report Channel").then(msg => {
-    msg.react("✅")
-    msg.react("❌")
-.then(() => msg.react('❌'))
-.then(() =>msg.react('✅'))
-let reaction1Filter = (reaction, user) => reaction.emoji.name === '✅' && user.id === message.author.id;
-let reaction2Filter = (reaction, user) => reaction.emoji.name === '❌' && user.id === message.author.id;
- 
-let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
-let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
-reaction1.on("collect", r => {
-    message.guild.owner.send(Rembed)
-    message.reply("**# - Done! 🎇**");
-})
-reaction2.on("collect", r => {
-    message.reply("**# - Canceled!**");
-})
-})
-}
-});
 
-client.on("message", message => {
-  if (!message.content.startsWith(PREFIX)) return;
-  if (!message.channel.guild)
-    return 
-  let command = message.content.split(" kill ")[0];
-  command = command.slice(PREFIX.length);
-  if (command === "Rk") {
-    var sabotage = message.mentions.users.first();
-    if (sabotage == message.author)
-      return message.reply(`**No please menition user**`);
-    if (sabotage === client.user) return message.reply(`**Why?**`);
-    if (sabotage < 1) {
-      message.delete();
-      return message.channel.sendMessage(
-        "Put something to kill like mention your username or use an emoji"
-      );
-    }
-    if (!sabotage)
-      return message.channel.send(`Please Mention A Member to Kill :warning:`);
-    message.channel.send("▄︻̷̿┻̿═━一 ${sabotage").then(msg => {
-      msg.edit('    **`___SLOTS___  `**                                                    <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554>                                                                      `|         ||         |` ');
-      setTimeout(function() {
-        msg.edit('  **`___SLOTS___  `**                                                    <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554>                                                                      `|         ||         |` ');
-      }, 1000);
-      setTimeout(function() {
-        msg.edit('  **`___SLOTS___  `**                                                    <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554>                                                                      `|         ||         |` ');
-      }, 2000);
-      setTimeout(function() {
-        msg.edit('  **`___SLOTS___  `**                                                    <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554>                                                                      `|         ||         |` ');
-      }, 3000);
-      setTimeout(function() {
-        msg.edit('  **`___SLOTS___  `**                                                    <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554> <a:emoji_56:859017377261420554>                                                                      `|         ||         |` ');
-      }, 4000);
-      setTimeout(function() {
-        msg.edit('  **`___SLOTS___  `**                                                    <:slots2:421472583347732511> <:slots1:421472583410515969> <:slots3:421472582924238869>                                                                               `|         ||         |` ');
-      }, 5000);
-      msg.delete(6000);
-      message.delete();
-    });
-    message.channel
-      .send("**** The crime has been successfully hidden 🕳 **")
-      .then(msg => msg.delete(7000));
-  }
-});
 
 client.on('message',async message => {
-  if(message.content.startsWith(PREFIX + "roleuser")) { 
+  if(message.content.startsWith(PREFIX + "rooooooopq")) { 
  
 let member_r = message.mentions.members.first() || message.member,
   user = member_r.user;
@@ -760,7 +679,7 @@ message.reply("**Set Prefix Working ✅**")
 });
 
  client.on('message',async message => {
-  if(message.content.startsWith(PREFIX + "sug")) {
+  if(message.content.startsWith(PREFIX + "owhdbnnbbbb")) {
   let args = message.content.split(" ").slice(1)
  
     if(!args.length) {
@@ -795,7 +714,7 @@ message.reply("**Set Prefix Working ✅**")
 })
 
 client.on('message', msg => {
- if (msg.content.startsWith(PREFIX + 'senddm')) {
+ if (msg.content.startsWith(PREFIX + 'hshdbahdbbbhhh')) {
  
    if(!msg.member.hasPermission('ADMINISTRATOR')) return
    let args = msg.content.split(' ').slice(1)
@@ -816,48 +735,6 @@ client.on('message', msg => {
 
 
   
-  client.on("message", message => {
-  if (message.content === PREFIX + "open") {
-    if (!message.channel.guild) return;
-    if (!message.member.hasPermission("MANAGE_CHANNELS"))
-      return message.reply("You dont have Perms `MANAGE CHANNELS`:x:");
-    message.channel.createOverwrite(message.guild.id, {
-      VIEW_CHANNEL: true
-    });
-    const embed = new Discord.MessageEmbed()
-      .setThumbnail(message.author.avatarURL())
-      .setTitle("**Channel unhided**")
-      .addField("Guild name", message.guild.name)
-      .addField("Channel", message.channel.name)
-      .addField("Moderation", `<@${message.author.id}>`, true)
-      .setColor("RANDOM");
-    message.channel.send(embed).then(bj => {
-      bj.react("🔓");
-    });
-  }
-});
-
-client.on("message", message => {
-  if (message.content === PREFIX + "close") {
-    if (!message.channel.guild) return;
-    if (!message.member.hasPermission("MANAGE_CHANNELS"))
-      return message.reply("You Dont Have Perms `MANAGE CHANNELS` :x:");
-    message.channel.createOverwrite(message.guild.id, {
-      VIEW_CHANNEL: false
-    });
-    const embed = new Discord.MessageEmbed()
-      .setThumbnail(message.author.avatarURL())
-      .setTitle("**Channel hided**")
-      .addField("Guild name", message.guild.name)
-      .addField("Channel", message.channel.name)
-      .addField("Moderation", `<@${message.author.id}>`, true)
-      .setColor("RANDOM");
-    message.channel.send(embed).then(bj => {
-      bj.react("🔒");
-    });
-  }
-});
-
 
 client.on(`ready`, () => {	
 //////////////
@@ -880,8 +757,8 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(` ${PREFIX}help - Random Bot Is here for fun`, { type: "WATCHING"});
-    client.user.setActivity(` ${PREFIX}help | Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "WATCHING"});
+    client.user.setActivity(` ${PREFIX}help / enjoy your song with 404 Music `, { type: "WATCHING"});
+    client.user.setActivity(` All Member Count ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "WATCHING"});
    
   
       }, (5000));
@@ -941,17 +818,13 @@ client.on(`message`, async (message) => {
 
 [{Support}](https://discord.gg/YMjsqqp8Gw)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=8&scope=bot)
 
-> <a:devv:871813217897316353> **(Owner Bot)** 
-> <a:Online:872897515165466764> <@!792754963759235074>
+> **Owner Bot**
+> <@!792754963759235074>
 
-> <a:IconStatus:872908170568290365> **(Status)**
-> <:IconStatusOnline:872939264722206731> Online : Plying
-
-> <a:emoji_21:806556915798376497> **(Prefix)**
-> <a:FBBE600B13DB4F5986B4D0AF89247091:871811080148639794> ***__R__***
-
+> **My Prefix**
+(.)
 
 `)
 
@@ -1044,25 +917,6 @@ function delay(delayInms) {
    }, delayInms);
  });
 }
-
-
-
-
-client.on('message', message => {
-if(message.content.startsWith("Rslots")) {
-  let slot1 = ['<:emoji_61:872141800482160641>', '<:emoji_61:872141800482160641>', '<:emoji_61:872141800482160641>', '<:emoji_61:872141800482160641>', '<:emoji_60:872141904383455272>', '<:emoji_60:872141904383455272>', '<:emoji_60:872141904383455272>', '<:emoji_60:872141904383455272>'];
-  let slots1 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
-  let slots2 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
-  let slots3 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
-  let we;
-  if(slots1 === slots2 && slots2 === slots3) {
-    we = "you won <a:kass:872897079305986108>"
-  } else {
-    we = "lost <a:offline:872897321120186399>"
-  }
-  message.channel.send(`${slots1} | ${slots2} | ${slots3} - ${we}`)
-}
-});
 
 
 
