@@ -37,7 +37,9 @@ module.exports = {
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
-   message.react("4️⃣0️⃣4️⃣")
+   message.react("4️⃣")
+   message.react("0️⃣")
+   message.react("4️⃣")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
