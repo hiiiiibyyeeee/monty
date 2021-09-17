@@ -21,7 +21,7 @@ module.exports = {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id);
       const endembed = new MessageEmbed().setColor("RANDOM")
-        .setAuthor(`Music Queue ended.`, "https://media.discordapp.net/attachments/857029431030054993/859771060648280104/image0.jpg")
+        .setAuthor(`Music Queue ended.`, "https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif")
       return queue.textChannel.send(endembed).catch(console.error);
     }
 
@@ -128,7 +128,7 @@ module.exports = {
     }
     
   let thumb;
-    if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/attachments/748095614017077318/769672148524335114/unknown.png";
+    if (song.thumbnail === undefined) thumb = "https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif";
     else thumb = song.thumbnail.url;
 
     try {
@@ -137,7 +137,7 @@ module.exports = {
         .setURL(song.url)
         .setColor("RANDOM")
         .setImage(thumb)
-        .setThumbnail(`https://media.discordapp.net/attachments/857029431030054993/859771060648280104/image0.jpg `)
+        .setThumbnail(`https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif `)
          .addField("👤 Requested by:", `\`${message.author.username}#${message.author.discriminator}\``, true)
         .addField("⏱ Length:", `\`${song.duration} Minutes\``, true)
         .addField("📣 Volume:", `\`100\``, true)
