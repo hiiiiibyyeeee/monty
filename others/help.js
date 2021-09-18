@@ -28,10 +28,6 @@ module.exports = {
  ────────────────
  Invite / prefix / uptime / support
 
-
-
-
- **Links**
  [404Support](https://discord.gg/Wr24Xa3x)
  [404Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=11856960&scope=bot)
 `)
