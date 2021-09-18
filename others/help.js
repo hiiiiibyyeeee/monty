@@ -18,15 +18,15 @@ module.exports = {
     .setThumbnail(`https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif `)
     .setTitle(`404 Music 🎶 `)
     .setDescription(`
- **play / loop / lyrics / nowplaying **
+ play / loop / lyrics / nowplaying 
 
- **pause / queue / radio / remove **
+ pause / queue / radio / remove 
 
- **resume / search / shuffle / skip  **
+ resume / search / shuffle / skip  
 
- **skipto / stop / volume / filter **
+ skipto / stop / volume / filter 
  ────────────────
- **Invite / prefix / uptime / support**
+ Invite / prefix / uptime / support
 
 
 
@@ -37,9 +37,7 @@ module.exports = {
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
-   message.react("4️⃣")
-   message.react("0️⃣")
-   message.react("4️⃣")
+   message.react("☑️")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
