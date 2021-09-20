@@ -810,27 +810,27 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setAuthor("Random Bot About", "https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg")
-    .setThumbnail(`https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg `)
+    .setAuthor("404 Music About 🎵", "https://media.discordapp.net/attachments/887846965126234132/889555368366211142/image0.gif")
+    .setThumbnail(`https://media.discordapp.net/attachments/887846965126234132/889555368366211142/image0.gif `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/YMjsqqp8Gw)
+[{Support}](https://discord.gg/K8SSqweuSH)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=8&scope=bot)
+[{Invite}](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
 
-> **Owner Bot**
-> <@!792754963759235074>
+ **Owner Bot**
+<@!792754963759235074>
 
-> **My Prefix**
-(.)
+ **My Prefix**
+     (.)
 
 `)
 
     //send the Message
     message.channel.send(embed)
-    message.react("<a:53EC4B02339C41BF9A83F5597463DBEB:853287599720235029>")
+    message.react("☑️")
   } 
 
 //An suuport announcement for everyone but no one knows so fine ^w^
@@ -841,15 +841,14 @@ client.on(`message`, async (message) => {
     const embed = new Discord.MessageEmbed()
     .setColor("RANDOM")
     .setDescription (`
-{Links}
 
-[{Support}](https://discord.gg/YMjsqqp8Gw)
+[404Support](https://discord.gg/K8SSqweuSH)
 -
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=831212084271644733&permissions=8&scope=bot)`)
+[404Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
-    .setImage(`https://media.discordapp.net/attachments/851565209743130654/860938919759446056/image0.gif`)
-    .setTitle(`**{Support  Random Bot}**`) 
-    .setThumbnail(`https://media.discordapp.net/attachments/851565209743130654/860933971977961481/image0.jpg `)
+    .setImage(`https://media.discordapp.net/attachments/887846965126234132/889556579597295626/image0.png`)
+    .setTitle(`404 Music Support 🎶`) 
+    .setThumbnail(`https://media.discordapp.net/attachments/887846965126234132/889555368366211142/image0.gif `)
     .setTimestamp()
     
     //send the Message
