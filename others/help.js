@@ -27,7 +27,7 @@ module.exports = {
 
  skipto / stop / volume / filter 
  ────────────────
- *Info Commands**
+ **Info Commands**
  Invite / prefix / uptime / support
 
  [404Support](https://discord.gg/K8SSqweuSH)
