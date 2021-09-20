@@ -959,6 +959,19 @@ client.on("guildCreate" , DarkMan => {
 })
 
 
+client.on('message', message => {
+  if (message.channel.id === "887846964144795658") {
+ 
+ 
+ 
+    message.react('🌚')
+      .then(() => {
+        message.react('💕')
+      });
+  }
+});
+
+
 
 
 //Bot coded by Monty#6985 
