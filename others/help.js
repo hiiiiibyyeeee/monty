@@ -18,6 +18,7 @@ module.exports = {
     .setThumbnail(`https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif `)
     .setTitle(`404 Music 🎶 `)
     .setDescription(`
+ **Music Commands**
  play / loop / lyrics / nowplaying 
 
  pause / queue / radio / remove 
@@ -26,10 +27,11 @@ module.exports = {
 
  skipto / stop / volume / filter 
  ────────────────
+ *Info Commands**
  Invite / prefix / uptime / support
 
- [404Support](https://discord.gg/Wr24Xa3x)
- [404Invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=11856960&scope=bot)
+ [404Support](https://discord.gg/K8SSqweuSH)
+ [404Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("RANDOM");
