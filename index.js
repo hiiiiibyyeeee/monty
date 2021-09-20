@@ -757,8 +757,8 @@ client.on(`ready`, () => {
         { return member.voice.channel.leave(); }
       });
       
-    client.user.setActivity(`Type: ${PREFIX}help`, { type: "PLAYING"});
-    client.user.setActivity(`Type: Servers ${client.guilds.cache.size} / Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
+    client.user.setActivity(`${PREFIX}help`, { type: "PLAYING"});
+    client.user.setActivity(`Servers ${client.guilds.cache.size} / Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "PLAYING"});
    
   
       }, (5000));
