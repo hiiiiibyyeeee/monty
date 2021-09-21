@@ -19,16 +19,16 @@ module.exports = {
     .setTitle(`404 Music 🎶 `)
     .setDescription(`
  ~~🎶~~ **Music Commands** ~~📻~~
- ╭ play / loop / lyrics / nowplaying 
+ <:404h:889975309041008720>play / loop / lyrics / nowplaying 
 
-  pause / queue / radio / remove 
+ pause / queue / radio / remove 
 
-  resume / search / shuffle / skip  
+ resume / search / shuffle / skip  
 
- ╰ skipto / stop / volume / filter
+ skipto / stop / volume / filter
  ────────────────
  ~~🔰~~ **Info Commands** ~~📌~~
- ╭ Invite / prefix / uptime / support /about / ping ╰
+  Invite / prefix / uptime / support /about / ping 
 
  [404Support](https://discord.gg/K8SSqweuSH)
  [404Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
