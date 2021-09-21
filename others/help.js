@@ -36,9 +36,4 @@ module.exports = {
   }
 };
 
-const buttons = new
-Discord.MessageButton() 
-.setStyle("url")
-.setLabel("ser")
-.setURL("https://discord.gg/K8SSqweuSH "
 
