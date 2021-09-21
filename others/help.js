@@ -34,7 +34,7 @@ module.exports = {
  [404Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("RANDOM");
+   .setColor("#21468b");
    message.react("☑️")
     return message.channel.send(helpEmbed).catch(console.error);
 
