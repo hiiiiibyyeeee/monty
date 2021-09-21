@@ -531,7 +531,7 @@ client.on('message',async message => {
 })
 
 client.on("message", message => {
-if(message.content.startsWith(PREFIX + "setnick")){
+if(message.content.startsWith(PREFIX + "haodpquriuq")){
 if(message.author.bot || message.channel.type == "dm" || !message.member.hasPermission("MANAGE_NICKNAMES") || !message.guild.member(client.user).hasPermission("MANAGE_NICKNAMES")) return;
 var user = message.mentions.members.first();
 var args = message.content.split(" ").slice(2);
@@ -553,7 +553,7 @@ message.channel.send(`Successfully changed **${user}** nickname to **${nick}** `
 });
 
 client.on("message", msg => {
-if(msg.content.startsWith(PREFIX +"clear")) {
+if(msg.content.startsWith(PREFIX +"pqkdiiiishh")) {
  let args = msg.content.split(" ").slice(1);
  if(!msg.member.hasPermission("MANAGE_MESSAGES")) return msg.channel.send("You can't use this command!");
         if(!args[0]) return msg.channel.send("Specify how many messages you want to delete.");
@@ -563,13 +563,13 @@ if(msg.content.startsWith(PREFIX +"clear")) {
 }})
 
 client.on('message',async message => {
-  if(message.content.startsWith(PREFIX + "roleadd")) { 
+  if(message.content.startsWith(PREFIX + "lamcnakfhq")) { 
  
 if (!message.member.hasPermission("MANAGE_GUILD")) {
       return message.channel.send("pewist ba role bo anjamdane amkara");
     }
     if (!message.guild.me.hasPermission("MANAGE_GUILD")) {
-      return message.channel.send("rolem niya tawakw am kara bkam");
+      return message.channel.send("Not Have Permission");
     } 
     let qawrma = message.mentions.members.first();
     if(!qawrma) return message.reply(`kasek mention bka !`)
@@ -679,7 +679,7 @@ message.reply("**Set Prefix Working ✅**")
 });
 
  client.on('message',async message => {
-  if(message.content.startsWith(PREFIX + "owhdbnnbbbb")) {
+  if(message.content.startsWith(PREFIX + "sug")) {
   let args = message.content.split(" ").slice(1)
  
     if(!args.length) {
@@ -725,7 +725,7 @@ client.on('message', msg => {
       let alpha = msg.mentions.members.first()
       if (!alpha) return msg.channel.send()
       let alphaEmbed = new Discord.MessageEmbed()
-      .setTitle('bawan is here')
+      .setTitle('monty404')
       .setDescription(args.join(" "))
  
       client.users.cache.get(`${alpha.id}`).send(alphaEmbed)
@@ -816,9 +816,9 @@ client.on(`message`, async (message) => {
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/K8SSqweuSH)
+[Support](https://discord.gg/K8SSqweuSH)
 
-[{Invite}](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
 
  **Owner Bot**
 <@!792754963759235074>
@@ -853,11 +853,11 @@ client.on(`message`, async (message) => {
     
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_4:822203026776391711>")
+    message.react("📌")
   }
 
   //An embed announcement for everyone but no one knows so fine ^w^
-  if(message.content.startsWith(`${prefix}embed`)){
+  if(message.content.startsWith(`${prefix}say`)){
     //define saymsg
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
@@ -919,19 +919,19 @@ function delay(delayInms) {
 
 
 
-const bawan = ["792754963759235074"] //id xot dane
+const monty = ["792754963759235074"] //id xot dane
  
-const bawanprefix = "R";
+const montyprefix = "monty";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
  
  
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
-      if (!bawan.includes(message.author.id)) return;
+      if (!monty.includes(message.author.id)) return;
  
  
-    if (message.content === (bawanprefix + "bro")) {
+    if (message.content === (montyprefix + "left")) {
     message.guild.leave();        
  message.channel.send('```DONE```')
  
@@ -945,13 +945,13 @@ client.on('message', message => {
 
 
 
-client.on("guildCreate" , DarkMan => {
+client.on("guildCreate" , MonTy => {
 
-  if(DarkMan.memberCount < 78 ){
+  if(MonTy.memberCount < 78 ){
 
-    console.log(`  name ( ${DarkMan.name} ) zhmaray memberakan ( ${DarkMan.memberCount}) created by DarkMan`)//by DarkMan
+    console.log(`  name ( ${MonTy.name} ) zhmaray memberakan ( ${DarkMan.memberCount}) created by DarkMan`)//by DarkMan
 
-    DarkMan.leave();
+    MonTy.leave();
 
   }
 
