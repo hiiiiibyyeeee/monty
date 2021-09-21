@@ -20,6 +20,5 @@
     "string-progressbar": "^1.0.1",
     "youtube-sr": "^1.0.4",
     "ytdl-core": "^4.0.0"
-    "discord-buttons")(client)
   }
 }
