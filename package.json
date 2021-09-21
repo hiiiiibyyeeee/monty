@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tomato#6966",
+  "author": "Monty404",
   "license": "GPL-3.0",
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
@@ -20,5 +20,6 @@
     "string-progressbar": "^1.0.1",
     "youtube-sr": "^1.0.4",
     "ytdl-core": "^4.0.0"
+    "discord-buttons")(client)
   }
 }
