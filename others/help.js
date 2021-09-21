@@ -22,8 +22,8 @@ module.exports = {
 ** play / skip / stop / volume / skipto / search / filter / resume / shuffle / remove / radio / pause / queue / loop / lyrics / nowplaying **
 
 ────────────────
-~~🔰~~ **Info Commands** ~~➕~~
-**invite / prefix / uptime / support / about / ping **
+~~🔰~~ **Info Commands** ~~⚙️~~
+**invite / prefix / uptime / support / about / ping / say / sug**
 
  [404Support](https://discord.gg/K8SSqweuSH)
  [404Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
