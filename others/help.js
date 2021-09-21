@@ -27,7 +27,6 @@ module.exports = {
 
  [404Support](https://discord.gg/K8SSqweuSH)
  [404Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
- [4️⃣0️⃣4️⃣Sponsor](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("#21468b");
