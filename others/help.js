@@ -3,7 +3,13 @@ const {
   PREFIX, 
 } = require(`../config.json`);
 
-  
+ require("discord-buttons")(client)
+
+ const buttons = new
+Discord.MessageButton() 
+.setStyle("url")
+.setLabel("hi")
+.setURL("https://discord.gg/K8SSqweuSH"
 
 
 module.exports = {
