@@ -27,11 +27,13 @@ module.exports = {
 
  [404Support](https://discord.gg/K8SSqweuSH)
  [404Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
- [4️⃣0️⃣4️⃣](https://discord.gg/K8SSqweu)
+ [4️⃣0️⃣4️⃣](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=3537920&scope=bot)
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("#21468b");
-   message.react("☑️")
+   message.react("<:491:889990398691377172>")
+   message.react("<:0error:889990633647898655>")
+   message.react("<:4error:889990683316867152>")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
