@@ -18,7 +18,7 @@ module.exports = {
     .setThumbnail(`https://media.discordapp.net/attachments/842179790948925441/888551431974559755/image0.gif `)
     .setTitle(`404 Music 🎶 `)
     .setDescription(`
- 🎶 **Music Commands**
+ ~~🎶~~ **Music Commands** ~~📻~~
  play / loop / lyrics / nowplaying 
 
  pause / queue / radio / remove 
@@ -27,7 +27,7 @@ module.exports = {
 
  skipto / stop / volume / filter
  ────────────────
- 🔰 **Info Commands**
+ ~~🔰~~ **Info Commands** ~~📌~~
  Invite / prefix / uptime / support
 
  [404Support](https://discord.gg/K8SSqweuSH)
