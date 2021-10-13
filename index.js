@@ -959,7 +959,7 @@ client.on("guildCreate" , MonTy => {
 
 
 client.on('message', message => {
-  if (message.channel.id === "887846964144795658") {
+  if (message.channel.id === "886550173751332894") {
  
  
  
